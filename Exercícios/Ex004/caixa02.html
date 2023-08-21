@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-color: rgb(51, 48, 48);
+            font-size: 17px;
+            font-family:Arial, Helvetica, sans-serif
+        }
+
+        header > h1 {
+            background-color: grey;
+            padding: 10px;
+            margin: 0px 0px 0px;
+            text-align: center;
+        }
+
+        nav{
+            background-color: rgb(168, 157, 157);
+            padding: 5px;
+            margin: 0px 0px 15px;
+        }
+
+        nav > a {
+            margin-left: 0px;
+            margin-right: 40px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        article {
+            text-align: center;
+            background-color: white;
+            padding: 5px;
+        }
+
+        article > p {
+            text-align: justify;
+            margin: 5px;
+            padding: 10px;
+            background-color: rgb(88, 79, 79);
+        }
+
+        aside {
+            text-align: center;
+            margin-top: 110px;
+        }
+
+        aside:hover > a{
+            color: black;
+        }
+
+        footer {
+            background-color: blue;
+            margin-top: 253px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticias hoje</h1>
+        <nav>
+            <a href="#">menu</a>
+            <a href="#">menu</a>
+            <a href="#">menu</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Importancia de se cuidar</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, accusantium dolorum architecto, veniam quaerat eum a ipsum nemo obcaecati modi, ducimus magni! Inventore rerum commodi, quis pariatur dicta consequatur! Dolore?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi rem nemo aliquam distinctio, culpa magni velit laudantium officiis hic magnam veritatis harum dolores facilis reprehenderit dolor, sit voluptatibus cum quo.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex porro magni exercitationem modi, neque dicta. Vero ducimus aperiam, ipsum, voluptas quisquam tempore temporibus impedit minus vitae totam, tempora libero error?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla labore officia similique tempore impedit nihil, ipsam necessitatibus voluptatibus rem sapiente aut. Corporis, ipsum maiores. Facilis voluptates porro architecto delectus ducimus!
+                </p>
+            </article>
+            <aside>
+                Artigo escrito pelo seu <a href="#">pai</a>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        desenvolvido pelo seu tio
+    </footer>
+</body>
+</html>
